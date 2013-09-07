@@ -25,6 +25,7 @@
 		7A7D02B517DAE72200FFD57B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7D029417DAE72200FFD57B /* CoreData.framework */; };
 		7A7D02BD17DAE72200FFD57B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A7D02BB17DAE72200FFD57B /* InfoPlist.strings */; };
 		7A7D02C017DAE72200FFD57B /* lessonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7D02BF17DAE72200FFD57B /* lessonTests.m */; };
+		97CED6BC17DB48C30001BE70 /* BraBru.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97CED6BB17DB48C30001BE70 /* BraBru.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		7A7D02BC17DAE72200FFD57B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7A7D02BE17DAE72200FFD57B /* lessonTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lessonTests.h; sourceTree = "<group>"; };
 		7A7D02BF17DAE72200FFD57B /* lessonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lessonTests.m; sourceTree = "<group>"; };
+		97CED6BB17DB48C30001BE70 /* BraBru.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = BraBru.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			children = (
 				7A7D029F17DAE72200FFD57B /* AppDelegate.h */,
 				7A7D02A017DAE72200FFD57B /* AppDelegate.m */,
+				97CED6BB17DB48C30001BE70 /* BraBru.strings */,
 				7A7D02A817DAE72200FFD57B /* lesson.xcdatamodeld */,
 				7A7D029717DAE72200FFD57B /* Supporting Files */,
 			);
@@ -239,7 +242,11 @@
 				7A7D02A317DAE72200FFD57B /* Default.png in Resources */,
 				7A7D02A517DAE72200FFD57B /* Default@2x.png in Resources */,
 				7A7D02A717DAE72200FFD57B /* Default-568h@2x.png in Resources */,
+<<<<<<< HEAD
 				063781FD17DB48B300CC24BB /* aNed5X4_700b.jpg in Resources */,
+=======
+				97CED6BC17DB48C30001BE70 /* BraBru.strings in Resources */,
+>>>>>>> 47d729e365d379f23b120dc458b9197235db2940
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
