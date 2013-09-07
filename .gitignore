@@ -1,0 +1,21 @@
+# Ignore bundler config
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+
+# Ignore all logfiles and tempfiles.
+/log
+/tmp
+
+*.swp
+*.orig
+.DS_Store
+/vendor/libraries/s3cmd-1.1.0-beta3
+
+/public/assets
+/public/uploads
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
