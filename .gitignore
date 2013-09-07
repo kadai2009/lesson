@@ -1,21 +1,21 @@
-# Ignore bundler config
-/.bundle
-
-# Ignore the default SQLite database.
-/db/*.sqlite3
-
-# Ignore all logfiles and tempfiles.
-/log
-/tmp
-
+.DS_Store
 *.swp
 *.orig
-.DS_Store
-/vendor/libraries/s3cmd-1.1.0-beta3
+*~.nib
 
-/public/assets
-/public/uploads
+build/
 
-config/settings.local.yml
-config/settings/*.local.yml
-config/environments/*.local.yml
+# Xcode project files except for the project file
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+
+*.pbxuser
+*.perspective
+*.perspectivev3
+
+#!xcuserdata/
+#*.xcuserstate
+UserInterfaceState.xcuserstate
+
+# Windows image thumbnail file
+Thumbs.db
